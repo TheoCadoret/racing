@@ -1,8 +1,6 @@
-package tddmicroexercises.tirepressuremonitoringsystem;
+/*package test.java.tddmicroexercises.tirepressuremonitoringsystem;
 
 
-import org.junit.*;
-import static org.junit.Assert.*;
 
 public class TestAlarm {
 
@@ -12,3 +10,17 @@ public class TestAlarm {
         assertEquals(false, alarm.isAlarmOn());
     }
 }
+
+
+/*
+package tddmicroexercises.tirepressuremonitoringsystem;
+
+import org.junit.*;
+import static org.junit.Assert.*;
+
+public class AlarmTest {
+    @Test
+    public void testAlarm(){
+        
+    }
+}*/
