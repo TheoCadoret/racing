@@ -14,4 +14,20 @@ public class TurnTicket
         return turnNumber;
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (o == null || getClass() != o.getClass())
+            return false;
+
+        TurnTicket that = (TurnTicket) o;
+
+        return turnNumber == that.turnNumber;
+    }
+
+    @Override
+    public int hashCode() {
+        return turnNumber;
+    }
 }
