@@ -1,10 +1,11 @@
 package tddmicroexercises.turnticketdispenser;
 
-public class TurnNumberSequence
+public class TurnNumberSequence implements Compteur
 {
     private static int _turnNumber = 0;
 
-    public static int getNextTurnNumber()
+    @Override
+    public  int getNextTurnNumber()
     {
         return _turnNumber++;
     }
